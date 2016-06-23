@@ -5,7 +5,7 @@ describe('AccountList', function() {
   describe('#size', function () {
 	var accountList = new AccountList;
     it('should have size', function () {
-      assert.equal(0, accountList.size());
+      assert.equal(3, accountList.size());
     });
   });
 });

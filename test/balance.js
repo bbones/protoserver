@@ -8,4 +8,10 @@ describe('Balance', function() {
       assert.equal(0, balance.error());
     });
   });
+  describe('#loadJSON', function() {
+    var balance = new Balance;
+    it('shouldLoad', function() {
+      balance.load('balance.json');
+    });
+  });
 });
