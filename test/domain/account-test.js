@@ -1,5 +1,5 @@
 var assert = require('chai').assert;
-var Account = require('../domain/account');
+var Account = require('../../domain/account');
 
 describe('Account', function() {
   describe('#accountBalance', function () {
