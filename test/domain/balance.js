@@ -4,8 +4,15 @@ var Balance = require('../../domain/balance');
 describe('Balance', function() {
   describe('#error', function () {
      it('should have error', function () {
-       var balance = new Balance();
-       assert.equal(-4, balance.error());
+       var balance = new Balance(100, 80,20);
+       assert.equal(0, balance.error());
      });
   });
+  describe('Should return fields', function () {
+     it('should have active', function () {
+       var balance = new Balance(100, 80,20);
+       assert.equal(100, balance.active);
+     });
+  });
+
 });

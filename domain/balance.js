@@ -1,13 +1,16 @@
-const Balance = function(){
-	var active = 1;
-	var liability = 2;
-	var equity = 3;
+class Balance {
 
-	return {
-		error : function() {
-		  return active - liability - equity;
-		}
-	};
+	constructor (active, liability, equity) {
+		this.active = active;
+		this.liability = liability;
+		this.equity = equity;
+	}
+
+	error () {
+		debugger;
+	  return this.active - this.liability - this.equity;
+	}
+
 };
 
 module.exports = Balance;
