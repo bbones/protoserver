@@ -1,9 +1,8 @@
-const Account = function(){
-	return {
-		balance : function() {
+'use strict'
+class Account {
+		balance () {
 			return 0;
 		}
-	};
 };
 
 module.exports = Account;

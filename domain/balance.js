@@ -1,3 +1,5 @@
+'use strict'
+
 class Balance {
 
 	constructor (active, liability, equity) {
@@ -7,7 +9,6 @@ class Balance {
 	}
 
 	error () {
-		debugger;
 	  return this.active - this.liability - this.equity;
 	}
 
