@@ -1,10 +1,5 @@
-const AccountList = function(){
-	accounts = ['Active', 'Passive', 'Equity']
-	return {
-		size : function() {
-			return accounts.length;
-		}
-	};
+'use strict'
+class AccountList {
 };
 
 module.exports = AccountList;
