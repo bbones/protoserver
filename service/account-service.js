@@ -1,7 +1,9 @@
 'use strict'
+
 class AccountService {
-  constructor() {
-    
+  test() {
+    console.log('Test');
   }
-}
-exports.module = AccountService;
+};
+
+module.exports = AccountService;
