@@ -5,7 +5,7 @@ describe('Balance', function() {
   describe('#error', function () {
      it('should have error', function () {
        var balance = new Balance(100, 80,20);
-       assert.equal(0, balance.error());
+       assert.equal(0, balance.balanceError());
      });
   });
   describe('Should return fields', function () {

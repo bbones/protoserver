@@ -8,7 +8,7 @@ class Balance {
 		this.equity = equity;
 	}
 
-	error () {
+	balanceError () {
 	  return this.active - this.liability - this.equity;
 	}
 
