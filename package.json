@@ -1,9 +1,13 @@
 {
-	"name" : "proto2server",
-	"version" : "0.0.1",
-	"author" : "Valentin Pogrebinsky",
-	"devDependencies": {
-	  "chai": "*",
-	  "mocha": "*"
-	}, "//": "mocha is our preference, but you can use any test runner you like"
+  "name": "proto2server",
+  "version": "0.0.1",
+  "author": "Valentin Pogrebinsky",
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  },
+  "//": "mocha is our preference, but you can use any test runner you like",
+  "dependencies": {
+    "mongodb": "^2.2.10"
+  }
 }
