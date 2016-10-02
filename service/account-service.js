@@ -1,8 +1,8 @@
 'use strict'
 
 class AccountService {
-  test() {
-    console.log('Test');
+  loadList(name, handler) {
+
   }
 };
 
