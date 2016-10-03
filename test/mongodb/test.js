@@ -1,6 +1,6 @@
+// http://mongodb.github.io/node-mongodb-native/2.2/quick-start/
 var MongoClient = require('mongodb').MongoClient;
 var assert = require('assert');
-
 
 describe("MongoDB", function() {
   it("Connect", function() {

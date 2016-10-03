@@ -1,12 +1,11 @@
 var chai = require('chai');
-var assert = require('chai').assert;
+var expect    = require("chai").expect;
 var Register = require('../../domain/register');
 
 describe("Register", function() {
-  var register = new Register({_account : 10, _party : 25}, 100);
+  var register = new Register({_party : 25, _account : 10}, 100);
   it("Has hashString", function() {
-    console.log(JSON.stringify({_account : 10, _party : 25}));
-    assert(JSON.stringify({_account : 10, _party : 25}),
-      register.hashString);
+    expect(JSON.stringify({_account : 10, _party : 25})).to.
+      equal(register.hashString);
   });
 });
