@@ -7,10 +7,6 @@ class Register {
     this.hashString = stringify(analitics);
     this.amount = amount;
   }
-
-  save() {
-
-  }
 }
 
 module.exports = Register;
