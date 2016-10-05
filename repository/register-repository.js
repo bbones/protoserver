@@ -1,9 +1,9 @@
 var
   MongoClient = require('mongodb').MongoClient;
+var url = 'mongodb://localhost:27017/treasure';
 
 class RegisterRepository {
   insert(register, callback) {
-    var url = 'mongodb://localhost:27017/treasure';
     MongoClient.connect(url, function(err, db) {
       if(err) {
         console.log("Error" + err);

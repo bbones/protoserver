@@ -8,4 +8,8 @@ describe("Register", function() {
     expect(JSON.stringify({_account : 10, _party : 25})).to.
       equal(register.hashString);
   });
+  it("Has period");
+  it("Has start amount");
+  it("Has turnover");
+  it("Has amount")
 });
