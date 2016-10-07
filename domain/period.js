@@ -1,9 +1,10 @@
+'use strict';
+
 class Period {
-  constructor() {
-    this.eventList = [];
-  }
-  add(backlogEvent) {
-    this.eventList.push(backlogEvent);
+  constructor(start, end, next) {
+    this.next = next;
+    this.start = start;
+    this.end = end;
   }
 }
 

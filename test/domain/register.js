@@ -9,7 +9,11 @@ describe("Register", function() {
       equal(register.hashString);
   });
   it("Has period");
-  it("Has start amount");
+  it("Has inBalance");
   it("Has turnover");
-  it("Has amount")
+  it("Has outBalance");
+  describe("Updates", function() {
+    it("Updates outBalance");
+    it("Updates turnover");
+  });
 });
