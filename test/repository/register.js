@@ -19,4 +19,7 @@ describe("RegisterRepository", function() {
       done();
     });
   });
+  it("Debit register");
+  it("Credit register");
+  it("Delete register");
 });

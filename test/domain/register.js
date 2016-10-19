@@ -1,6 +1,7 @@
 var chai = require('chai');
 var expect    = require("chai").expect;
 var Register = require('../../domain/register');
+var Period = require('../../domain/Period');
 
 describe("Register", function() {
   var register = new Register({_party : 25, _account : 10}, 100);
@@ -8,7 +9,9 @@ describe("Register", function() {
     expect(JSON.stringify({_account : 10, _party : 25})).to.
       equal(register.hashString);
   });
-  it("Has period");
+  it("Has period", function(){
+    expect("");
+  });
   it("Has inBalance");
   it("Has turnover");
   it("Has outBalance");
