@@ -2,7 +2,7 @@
 var MongoClient = require('mongodb').MongoClient;
 var assert = require('assert');
 
-describe("MongoDB", function() {
+describe.skip("MongoDB", function() {
   it("Connect", function(done) {
     // Connection URL
     var url = 'mongodb://localhost:27017/myproject';
