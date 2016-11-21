@@ -1,11 +1,11 @@
 'use strict';
 
 class PaymentEvent {
-  constructor(stamp, amount, who, whom) {
+  constructor(stamp, amount, unit, party) {
     this.stamp = stamp;
     this.amount = amount;
-    this.who = who;
-    this.whom = whom;
+    this.unit = unit;
+    this.party = party;
   }
 }
 

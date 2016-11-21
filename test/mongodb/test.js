@@ -13,6 +13,4 @@ describe.skip("MongoDB", function() {
       else { db.close(); done(); }
     });
   });
-
-
 });
